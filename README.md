@@ -9,7 +9,7 @@ This is the code for baseline machine learning and deep learning fusion model.
 - each dataset has 3 modalites extracted : Text, acoustic, and visual 
 
 ### Preprocessing Folder
-- contains two version temporal and non-temporal preprocess: temporal considered all time stamps while non-temporal removes time dimesion by averaging values from all timestamps
+- contains two version temporal and non-temporal preprocess: temporal considers all time stamps while non-temporal removes time dimesion by averaging values from all timestamps
 - the data is tokenized for both version: tokenization is done to increase data sample sizes (chunk data from multiple children to produce more samples)
 
 ### ML folder
@@ -21,4 +21,6 @@ This is the code for baseline machine learning and deep learning fusion model.
 - contains multimodal approaches with different fusion methods: concate, multiply, add, self attention, and cross attention
 - Each fusion method model contains different modalities for testing which modalities work best for different fusions
 - There is also BERT model variant which uses cross attention (that was found the best model) -> standard text embeddings is Text fast embeddings
-- 
+
+### Final Note: there is more code for more models based off exisiting research papers, but that has not been included, the new model I'm working towards has also not been included
+
