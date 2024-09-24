@@ -20,7 +20,7 @@ This is the code for baseline machine learning and deep learning fusion model.
 ### DL folder
 - contains multimodal approaches with different fusion methods: concate, multiply, add, self attention, and cross attention
 - Each fusion method model contains different modalities for testing which modalities work best for different fusions
-- the SH file is for running multiple hypeparameters setting 
+- the SH file is for running multiple hyperparameters settings: grid search method
 - There is also BERT model variant which uses cross attention (that was found the best model) -> standard text embeddings is Text fast embeddings
 
 ### Final Note: there is more code for more models based off exisiting research papers, but that has not been included, the new model I'm working towards has also not been included
